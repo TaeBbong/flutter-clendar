@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_clendar/views/subscribe_view.dart';
 import 'package:get/get.dart';
 
 import 'views/home_view.dart';
@@ -21,6 +22,7 @@ class MainApp extends StatelessWidget {
         GetPage(name: '/', page: () => SplashView()),
         GetPage(name: '/signin', page: () => SigninView()),
         GetPage(name: '/home', page: () => HomeView()),
+        GetPage(name: '/home/subscribe', page: () => SubscribeView()),
         GetPage(name: '/setting', page: () => SettingView()),
       ],
     );
